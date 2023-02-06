@@ -1,0 +1,160 @@
+body{
+    background: rgb(112,128,144);
+background: linear-gradient(0deg, rgba(112,128,144,1) 0%, rgba(255,255,255,1) 49%, rgba(218,92,52,1) 100%, rgba(221,105,68,1) 100%, rgba(255,255,255,1) 100%, rgba(218,92,52,1) 100%, rgba(237,239,241,1) 100%);
+    /* background: rgb(112,128,144);
+    background: linear-gradient(0deg, rgba(112,128,144,1) 0%, rgba(255,255,255,1) 100%, rgba(146,229,255,1) 100%); */
+    font-family: 'Didact Gothic', sans-serif
+}
+
+.container{
+    margin-top:  15px;
+    padding: 5px;
+    width: 90%;
+}
+
+/* @media (max-width: 576px){
+.container {
+    max-width: 550px;
+}
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+} */
+
+
+.navbar{
+   background-color: slategrey;
+   background-blend-mode: overlay;
+   /* align-items: center; */
+   width: 100%;
+   /* justify-content: space-evenly; */
+}
+
+.title{
+    font-size: 56px;
+    color: white;
+    padding-top: 10px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.nav2{
+    background-color: rgba(218, 91, 52, 0.81);
+    width: 100%;
+}
+li{
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    margin: 5px;
+}
+
+li:hover{
+    background-color:rgb(192, 201, 209);
+    color: white;
+}
+.list-group{
+    display: flex;
+    flex: row-reverse;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    color:  #DA5C34;
+    flex-wrap: wrap;
+    margin: 2px;
+}
+/* .jumbotron headers */
+h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 52px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* current weather info */
+h3{color: slategrey;
+text-transform: uppercase;
+}
+
+/* five day dates */
+h5{
+font-size: 22px;
+font-family: 'Bebas Neue', sans-serif;
+color: #DA5C34;
+}
+
+h6{
+font-size: 18px;
+
+}
+
+.icon-main{
+    width: 150px;
+    height: 150px;
+    background-color: slategrey;
+    border-radius: 50%;
+    border: solid;
+    border-color: #708090;
+}
+
+.icon{
+    width: 75px;
+    height: 75px;
+    background-color: slategrey;
+    border-radius: 50%;
+    border: solid;
+    border-color: #DA5C34;
+}
+
+.card{
+    width: fit-content;
+    height: 100%;
+    align-content: center;
+    margin: 2px;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center; 
+}
+
+.forecast{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.jumbotron{
+    padding: 25px 25px;
+    /* width: 95%; */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.781);
+}
+
+/* .forcast{
+    margin:none;
+} */
+
+#searchBox{
+    padding: 30px 15px 15px 15px;
+    width: 400px;
+    margin: none;
+    height: 56px;
+}
+
+.btn{
+    background-color: #DA5C34;
+    /* padding: 30px 15px 15px 15px; */
+    margin-top: 30px;
+    margin-left: -10px;
+    /* height: 56px; */
+}
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue;
+    }
+  }
